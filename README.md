@@ -2,6 +2,10 @@
 
 An elegant, secure, and serverless Web Application designed for musicians and buskers to organize, transpose, and search chords. It features premium dark-themed interfaces, real-time Google SSO admin approval gates, and a decoupled high-fidelity AI chord-engraving engine.
 
+> [!TIP]
+> **Are you a musician or self-hoster who isn't a "tech bro"?**
+> We've written an incredibly simple, zero-code step-by-step **[Musician's Easy Guide to Setting Up Chord Organizer](easy_guide.md)** to walk you through getting your free API keys and deploying your very own private chord organizer in minutes!
+
 ---
 
 ## 🎯 The Philosophy: Own Your Music
@@ -31,29 +35,50 @@ Most chord library applications on the market today lock your song library, anno
 ## 🏗️ System Architecture
 
 ```mermaid
-graph TD
-    subgraph client_tier ["Client Tier"]
-        FE[React Frontend <br> Vite / Firebase Hosting]
-        GA[Access Approval Gate <br> PendingApproval.jsx]
+flowchart LR
+    %% Custom Styling Definitions
+    classDef client fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
+    classDef service fill:#3b0764,stroke:#c084fc,stroke-width:2px,color:#f3e8ff;
+    classDef database fill:#1c1917,stroke:#f59e0b,stroke-width:2px,color:#fef3c7;
+    classDef external fill:#180828,stroke:#ec4899,stroke-width:2px,color:#fdf2f8;
+    classDef ug fill:#022c22,stroke:#34d399,stroke-width:2px,color:#ecfdf5;
+
+    subgraph client_tier ["📱 Client Tier (Vite Frontend)"]
+        FE["🌐 React Dashboard<br>(Firebase Hosting)"]:::client
+        GA["🔒 SSO Access Gate<br>(PendingApproval.jsx)"]:::client
     end
 
-    subgraph service_tier ["Service Tier (Cloud Run)"]
-        EX[Express Controller <br> index.js]
-        CORE[Modular Scraper Engine <br> scraper-core.js]
+    subgraph service_tier ["⚙️ Service Tier (GCP Cloud Run)"]
+        EX["🚀 Express API Wrapper<br>(index.js)"]:::service
+        CORE["📦 Standalone Scraper<br>(scraper-core.js)"]:::service
     end
 
-    subgraph database_tier ["Database Tier"]
-        FS[Firestore Database <br> Security Rules Gated]
+    subgraph database_tier ["🔥 Database Tier (Firebase)"]
+        FS[("🗄️ Firestore Database<br>(Security Rules Locked)")]:::database
     end
 
-    FE -->|Check user status| FS
-    GA -->|Gates unapproved logins| FE
-    FE -->|POST /clean + JWT token| EX
-    EX -->|Verify status == approved| FS
-    EX -->|Invokes Engine| CORE
-    CORE -->|Fetch residential HTML| SD[Scrape.do Proxy]
-    CORE -->|AI chord engraving| GM[Gemini API]
-    EX -->|Write parsed chords| FS
+    subgraph external_services ["🌐 External Services"]
+        SD["🕷️ Scrape.do Proxy<br>(Residential IP Fetcher)"]:::external
+        GM["🧠 Gemini Flash AI<br>(Music Engraving Engine)"]:::external
+        UG["🎸 Ultimate Guitar<br>(Source Chord Page)"]:::ug
+    end
+
+    %% Data Streams & Connections
+    FE -->|1. Check Auth Status| FS
+    GA -->|2. Blocks Session| FE
+    FE -->|3. Scrape Request (JWT)| EX
+    EX -->|4. Validate Approved User| FS
+    EX -->|5. Execute Scraper| CORE
+    CORE -->|6. Residential IP Bypass| SD
+    SD -->|7. Fetch HTML| UG
+    CORE -->|8. Structure Chords & Lyrics| GM
+    EX -->|9. Save Structured Song| FS
+
+    %% Subgraph Styling
+    style client_tier fill:#0f172a,stroke:#3b82f6,stroke-width:2px,color:#3b82f6
+    style service_tier fill:#0f172a,stroke:#a855f7,stroke-width:2px,color:#a855f7
+    style database_tier fill:#0f172a,stroke:#eab308,stroke-width:2px,color:#eab308
+    style external_services fill:#0f172a,stroke:#ec4899,stroke-width:2px,color:#ec4899
 ```
 
 ---
