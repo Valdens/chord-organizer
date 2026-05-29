@@ -1,0 +1,44 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+
+# Production
+dist
+build
+out
+
+# Misc
+.DS_Store
+*.pem
+
+# Firebase
+.firebase/
+firestore.indexes.json
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Backups & Diagnostic Outputs
+backups/
+testResults.json
+*.log
+

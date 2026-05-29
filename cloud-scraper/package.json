@@ -1,0 +1,14 @@
+{
+  "name": "chord-organizer-cloud-scraper",
+  "version": "1.0.0",
+  "description": "On-demand lightweight scraping container for Google Cloud Run",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "express": "^4.19.2",
+    "firebase-admin": "^13.8.0"
+  }
+}

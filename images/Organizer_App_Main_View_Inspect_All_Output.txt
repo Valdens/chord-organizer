@@ -1,0 +1,711 @@
+
+<div id="ReactRoot" class="RootPage" style="display: block;"><div class="b-jss332 b-jss333 b-jss326 b-jss323"><header class="c-jss318 c-jss307 c-jss311 c-jss314 b-jss335 b-jss345 b-jss334 b-jss336 b-jss346 c-jss321" data-testid="app-bar"><div class="c-jss346 c-jss348 b-jss337 b-jss338"><div class="b-jss340 b-jss341"><button class="c-jss375 c-jss366 c-jss350 c-jss369" tabindex="0" type="button" aria-label="Toggle menu" role="button" title="Toggle menu"><span class="c-jss374"><svg class="c-jss378" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span><span class="c-jss387"></span></button></div><h6 class="c-jss409 b-jss343 b-jss344 c-jss419 c-jss431">Valdens Chord Organizer</h6><div class="c-jss439"><form class="c-jss318 c-jss440 c-jss321 c-jss319"><svg class="c-jss378 c-jss444" focusable="false" viewBox="0 0 24 24" aria-hidden="true" title="Search ( use / )"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg><input tabindex="0" class="c-jss442 c-jss446" type="text" placeholder="Search Recorded" aria-label="Search Recorded" value=""></form></div><div class="c-jss447"><span class="c-jss451" data-testid="SyncStatusText" role="status" style="opacity: 0; transform: scale(0.75, 0.5625); transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1), transform 333ms cubic-bezier(0.4, 0, 0.2, 1) 167ms; visibility: hidden;"></span><span class="c-jss452"><div role="group" class="c-jss475"><button class="c-jss375 c-jss501 c-jss506 c-jss500 c-jss518 c-jss522" tabindex="0" type="button" data-testid="SyncActionButton" aria-label="Sync"><span class="c-jss502"><svg class="c-jss378 c-jss385" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"></path></svg></span><span class="c-jss387"></span></button><button class="c-jss375 c-jss501 c-jss506 c-jss531 c-jss518 c-jss522" tabindex="0" type="button" data-testid="SyncMenuButton" aria-label="View app status"><span class="c-jss502"><svg class="c-jss378 c-jss385" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="button"><path d="M7 10l5 5 5-5z"></path></svg></span><span class="c-jss387"></span></button></div><span class="c-jss453 c-jss450 c-jss462 c-jss474"></span></span></div><button class="c-jss375 c-jss366 c-jss534 c-jss369" tabindex="0" type="button" aria-label="account menu" aria-haspopup="true"><span class="c-jss374"><div class="c-jss543 c-jss546 c-jss535 c-jss536 c-jss544">S</div></span><span class="c-jss387"></span></button></div></header><div class="b-jss332 b-jss347 b-jss327 b-jss328"><div class="b-jss352 b-jss353 b-jss348 b-jss351"><div class="b-jss364 b-jss354 b-jss349 b-jss351 b-jss355 b-jss359 b-jss367"><ul class="b-jss394 b-jss392 b-jss393 b-jss395" role="navigation"><div class="b-jss427 b-jss416 b-jss424 b-jss400 b-jss402" tabindex="0" role="button" aria-disabled="false" title="Bangers"><div class="b-jss430 b-jss401"><i class="fa fas fa-eye"></i></div><div class="b-jss432"><span class="b-jss438 b-jss436 b-jss398 b-jss440 b-jss467">Bangers</span></div><span class="b-jss468"></span></div><div class="b-jss427 b-jss416 b-jss424 b-jss400 b-jss478 b-jss426 b-jss399" tabindex="0" role="button" aria-disabled="false" aria-current="page" title="Recorded"><div class="b-jss430 b-jss401"><i class="fa fas fa-star"></i></div><div class="b-jss432"><span class="b-jss438 b-jss436 b-jss398 b-jss440 b-jss467">Recorded</span></div><span class="b-jss468"></span></div><div class="b-jss427 b-jss416 b-jss424 b-jss400 b-jss479" tabindex="0" role="button" aria-disabled="false" title="Unrecorded"><div class="b-jss430 b-jss401"><i class="fa fas fa-eye"></i></div><div class="b-jss432"><span class="b-jss438 b-jss436 b-jss398 b-jss440 b-jss467">Unrecorded</span></div><span class="b-jss468"></span></div><div class="b-jss427 b-jss416 b-jss424 b-jss400 b-jss480" tabindex="0" role="button" aria-disabled="false" title="Statistics"><div class="b-jss430 b-jss401"><i class="fa fa-bar-chart"></i></div><div class="b-jss432"><span class="b-jss438 b-jss436 b-jss398 b-jss440 b-jss467">Statistics</span></div><span class="b-jss468"></span></div><div class="b-jss427 b-jss416 b-jss424 b-jss400 b-jss481" tabindex="0" role="button" aria-disabled="false" title="Random"><div class="b-jss430 b-jss401"><i class="fa fas fa-dice-d20"></i></div><div class="b-jss432"><span class="b-jss438 b-jss436 b-jss398 b-jss440 b-jss467">Random</span></div><span class="b-jss468"></span></div><hr class="b-jss482 b-jss486"><div class="b-jss427 b-jss416 b-jss424 b-jss400 b-jss489" tabindex="0" role="button" aria-disabled="false" title="About"><div class="b-jss430 b-jss401"><svg class="b-jss490" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></svg></div><div class="b-jss432"><span class="b-jss438 b-jss436 b-jss398 b-jss440 b-jss467">About</span></div><span class="b-jss468"></span></div><hr class="b-jss482 b-jss486"><div class="b-jss427 b-jss416 b-jss424 b-jss400 b-jss503" tabindex="0" role="button" aria-disabled="false" title="App Gallery"><div class="b-jss430 b-jss401"><svg class="b-jss490" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"></path></svg></div><div class="b-jss432"><span class="b-jss438 b-jss436 b-jss398 b-jss440 b-jss467">App Gallery</span></div><span class="b-jss468"></span></div></ul></div></div><div class="b-jss332 b-jss522 b-jss326 b-jss328"><div class="b-jss325"><div class="b-jss524"><div style="flex: 1 1 0px; overflow: hidden; position: relative;"><div style="position: absolute; inset: 0px;"><div class="SplitPane  vertical disabled" style="display: flex; flex: 1 1 0%; height: 100%; position: absolute; outline: none; overflow: hidden; user-select: text; flex-direction: row; left: 0px; right: 0px;"><div class="Pane vertical Pane1  " style="flex: 0 0 auto; position: relative; outline: none; width: 2082.88px;"><div class="Pane  Pane" style="flex: 0 0 auto; position: relative; outline: none; height: 100%; display: flex;"><div class="b-jss525" data-view-state-key="{&quot;Type&quot;:&quot;Control&quot;,&quot;Name&quot;:&quot;Recorded&quot;}" role="region" aria-label="Recorded" data-testid="Recorded"><div class="b-jss526 b-jss534" data-testid="subnav-header"><div class="b-jss536"><div class="b-jss537 b-jss541"><div class="b-jss538" role="heading" aria-level="2" aria-hidden="false">Recorded</div><div class="b-jss539 b-jss542"><span class="b-jss540"><div class="b-jss629"><button class="g-jss128 g-jss99 g-jss107 g-jss98 navbar-primary-button g-jss108 g-jss118 g-jss120 g-jss110" tabindex="0" type="button" role="button" aria-label="Add"><span class="g-jss100"><span class="g-jss123 g-jss93 g-jss125"><i class="far fa fa-plus"></i></span><div class="g-jss94" title="Add">Add</div></span><span class="g-jss144"></span></button><hr class="g-jss157 g-jss156 navbar-divider g-jss163 g-jss162"><button class="g-jss128 g-jss167 g-jss154" tabindex="0" type="button" aria-label="Filter" role="button" title="Filter"><span class="g-jss175"><svg class="g-jss176 g-jss182" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"></path></svg></span><span class="g-jss144"></span></button><button class="g-jss128 g-jss167 g-jss154" tabindex="0" type="button" aria-label="Select Items" role="button" title="Select Items"><span class="g-jss175"><svg class="g-jss176" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM17.99 9l-1.41-1.42-6.59 6.59-2.58-2.57-1.42 1.41 4 3.99z"></path></svg></span><span class="g-jss144"></span></button></div></span></div></div></div></div><div class="b-jss525" style="opacity: 1; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1);"><div class="b-jss525"><div style="position: absolute; inset: 0px;"><div data-testid="deck-view-container" class="CSSRolloutContainer ReactRootRollout BasePrimaryView DeckView DeckView--fixed-height-mode" id="Recorded" style="width: 2082.88px; height: 532.5px;"><div class="PullToSyncView PullToSyncView-down"><div class="PullToSyncView-content-wrapper"><div class="PullToSyncView-content PullToSyncView-down PullToSyncView-transition PullToSyncView-flickerfix" style="position: absolute; inset: 0px;"><div class="PullToSyncView-indicator"><div class="Inner"></div></div><div><div><div></div><div style="padding-top: 0px; max-height: 532.5px;" class="DeckView__list"><div style="position: relative; height: 46009px;"><div style="transform: translate3d(0px, 0px, 0px);"><div><div data-testid="grouped-header-row-container-4 Non Blondes" class="GroupedHeaderRow GroupedHeaderRow--FlexRollout DesktopUI" style="border-bottom: 1px solid rgb(76, 76, 76);" data-testonly-row-index="0"><div class="GroupedHeaderRow__type-view GroupedHeaderRow__desktop-ui"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">4 Non Blondes</span></div><div class="GroupedHeaderRow__aggregate b-jss556 b-jss557"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="(no-attribute)"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">1</span></div></div></div></div><span data-testid="deck-row-container" data-testonly-row-index="1" id="Deck_RowElement_Status_is_Recorded_2" class="ASTappable DeckRow ASTappable--pointer" style="display: flex; flex-direction: column;" href="#" tabindex="0" role="button"><div class="DeckRow__swipe-action-button" style="position: absolute; left: 55px; margin-top: 45px; vertical-align: middle;"></div><div class="DeckRowSlide b-jss558 b-jss569" id="draggable_RowElement_Status is Recorded_2" data-testid="deck-row-slide-_RowElement_Status is Recorded_2" style="position: relative; left: 0px; padding-left: 16px;"><div class="b-jss559 b-jss570"><div class="b-jss561"><div class="DeckRow__primary-text b-jss562 b-jss571"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Title"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Whats Up 349210</span></div></div></div><div class="DeckRow__secondary-text b-jss563"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">4 Non Blondes</span></div></div><div class="b-jss567 b-jss573"><div class="b-jss568"><span data-testonly-action="Open Url (External URL)" data-testid="Open Url (External URL)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (External URL)" title="Open Url (External URL)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa-link"></i><span class="sr-only">Open Url (External URL)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Open Url (Local Doc)" data-testid="Open Url (Local Doc)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (Local Doc)" title="Open Url (Local Doc)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-external-link"></i><span class="sr-only">Open Url (Local Doc)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Edit" data-testid="Edit" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Edit" title="Edit"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-edit"></i><span class="sr-only">Edit</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div></div></div></div></span><div data-testid="grouped-header-row-container-A New Found Glory" class="GroupedHeaderRow GroupedHeaderRow--FlexRollout DesktopUI" style="border-bottom: 1px solid rgb(76, 76, 76);" data-testonly-row-index="2"><div class="GroupedHeaderRow__type-view GroupedHeaderRow__desktop-ui"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">A New Found Glory</span></div><div class="GroupedHeaderRow__aggregate b-jss556 b-jss557"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="(no-attribute)"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">1</span></div></div></div></div><span data-testid="deck-row-container" data-testonly-row-index="3" id="Deck_RowElement_Status_is_Recorded_607" class="ASTappable DeckRow ASTappable--pointer" style="display: flex; flex-direction: column;" href="#" tabindex="0" role="button"><div class="DeckRow__swipe-action-button" style="position: absolute; left: 55px; margin-top: 45px; vertical-align: middle;"></div><div class="DeckRowSlide b-jss558 b-jss587" id="draggable_RowElement_Status is Recorded_607" data-testid="deck-row-slide-_RowElement_Status is Recorded_607" style="position: relative; left: 0px; padding-left: 16px;"><div class="b-jss559 b-jss588"><div class="b-jss561"><div class="DeckRow__primary-text b-jss562 b-jss589"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Title"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">My Friends Over You</span></div></div></div><div class="DeckRow__secondary-text b-jss563"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">A New Found Glory</span></div></div><div class="b-jss567 b-jss591"><div class="b-jss568"><span data-testonly-action="Open Url (External URL)" data-testid="Open Url (External URL)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (External URL)" title="Open Url (External URL)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa-link"></i><span class="sr-only">Open Url (External URL)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Open Url (Local Doc)" data-testid="Open Url (Local Doc)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (Local Doc)" title="Open Url (Local Doc)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-external-link"></i><span class="sr-only">Open Url (Local Doc)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Edit" data-testid="Edit" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Edit" title="Edit"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-edit"></i><span class="sr-only">Edit</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div></div></div></div></span><div data-testid="grouped-header-row-container-Ace Of Base" class="GroupedHeaderRow GroupedHeaderRow--FlexRollout DesktopUI" style="border-bottom: 1px solid rgb(76, 76, 76);" data-testonly-row-index="4"><div class="GroupedHeaderRow__type-view GroupedHeaderRow__desktop-ui"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Ace Of Base</span></div><div class="GroupedHeaderRow__aggregate b-jss556 b-jss557"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="(no-attribute)"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">1</span></div></div></div></div><span data-testid="deck-row-container" data-testonly-row-index="5" id="Deck_RowElement_Status_is_Recorded_4" class="ASTappable DeckRow ASTappable--pointer" style="display: flex; flex-direction: column;" href="#" tabindex="0" role="button"><div class="DeckRow__swipe-action-button" style="position: absolute; left: 55px; margin-top: 45px; vertical-align: middle;"></div><div class="DeckRowSlide b-jss558 b-jss592" id="draggable_RowElement_Status is Recorded_4" data-testid="deck-row-slide-_RowElement_Status is Recorded_4" style="position: relative; left: 0px; padding-left: 16px;"><div class="b-jss559 b-jss593"><div class="b-jss561"><div class="DeckRow__primary-text b-jss562 b-jss594"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Title"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">The Sign 137750</span></div></div></div><div class="DeckRow__secondary-text b-jss563"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Ace Of Base</span></div></div><div class="b-jss567 b-jss596"><div class="b-jss568"><span data-testonly-action="Open Url (External URL)" data-testid="Open Url (External URL)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (External URL)" title="Open Url (External URL)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa-link"></i><span class="sr-only">Open Url (External URL)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Open Url (Local Doc)" data-testid="Open Url (Local Doc)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (Local Doc)" title="Open Url (Local Doc)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-external-link"></i><span class="sr-only">Open Url (Local Doc)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Edit" data-testid="Edit" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Edit" title="Edit"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-edit"></i><span class="sr-only">Edit</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div></div></div></div></span><div data-testid="grouped-header-row-container-Adele" class="GroupedHeaderRow GroupedHeaderRow--FlexRollout DesktopUI" style="border-bottom: 1px solid rgb(76, 76, 76);" data-testonly-row-index="6"><div class="GroupedHeaderRow__type-view GroupedHeaderRow__desktop-ui"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Adele</span></div><div class="GroupedHeaderRow__aggregate b-jss556 b-jss557"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="(no-attribute)"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">1</span></div></div></div></div><span data-testid="deck-row-container" data-testonly-row-index="7" id="Deck_RowElement_Status_is_Recorded_217" class="ASTappable DeckRow ASTappable--pointer" style="display: flex; flex-direction: column;" href="#" tabindex="0" role="button"><div class="DeckRow__swipe-action-button" style="position: absolute; left: 55px; margin-top: 45px; vertical-align: middle;"></div><div class="DeckRowSlide b-jss558 b-jss597" id="draggable_RowElement_Status is Recorded_217" data-testid="deck-row-slide-_RowElement_Status is Recorded_217" style="position: relative; left: 0px; padding-left: 16px;"><div class="b-jss559 b-jss598"><div class="b-jss561"><div class="DeckRow__primary-text b-jss562 b-jss599"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Title"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Someone Like You 1006751</span></div></div></div><div class="DeckRow__secondary-text b-jss563"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Adele</span></div></div><div class="b-jss567 b-jss601"><div class="b-jss568"><span data-testonly-action="Open Url (External URL)" data-testid="Open Url (External URL)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (External URL)" title="Open Url (External URL)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa-link"></i><span class="sr-only">Open Url (External URL)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Open Url (Local Doc)" data-testid="Open Url (Local Doc)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (Local Doc)" title="Open Url (Local Doc)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-external-link"></i><span class="sr-only">Open Url (Local Doc)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Edit" data-testid="Edit" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Edit" title="Edit"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-edit"></i><span class="sr-only">Edit</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div></div></div></div></span><div data-testid="grouped-header-row-container-Afroman" class="GroupedHeaderRow GroupedHeaderRow--FlexRollout DesktopUI" style="border-bottom: 1px solid rgb(76, 76, 76);" data-testonly-row-index="8"><div class="GroupedHeaderRow__type-view GroupedHeaderRow__desktop-ui"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Afroman</span></div><div class="GroupedHeaderRow__aggregate b-jss556 b-jss557"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="(no-attribute)"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">1</span></div></div></div></div><span data-testid="deck-row-container" data-testonly-row-index="9" id="Deck_RowElement_Status_is_Recorded_213" class="ASTappable DeckRow ASTappable--pointer" style="display: flex; flex-direction: column;" href="#" tabindex="0" role="button"><div class="DeckRow__swipe-action-button" style="position: absolute; left: 55px; margin-top: 45px; vertical-align: middle;"></div><div class="DeckRowSlide b-jss558 b-jss602" id="draggable_RowElement_Status is Recorded_213" data-testid="deck-row-slide-_RowElement_Status is Recorded_213" style="position: relative; left: 0px; padding-left: 16px;"><div class="b-jss559 b-jss603"><div class="b-jss561"><div class="DeckRow__primary-text b-jss562 b-jss604"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Title"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Because I Got High 1171025</span></div></div></div><div class="DeckRow__secondary-text b-jss563"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Afroman</span></div></div><div class="b-jss567 b-jss606"><div class="b-jss568"><span data-testonly-action="Open Url (External URL)" data-testid="Open Url (External URL)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (External URL)" title="Open Url (External URL)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa-link"></i><span class="sr-only">Open Url (External URL)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Open Url (Local Doc)" data-testid="Open Url (Local Doc)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (Local Doc)" title="Open Url (Local Doc)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-external-link"></i><span class="sr-only">Open Url (Local Doc)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Edit" data-testid="Edit" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Edit" title="Edit"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-edit"></i><span class="sr-only">Edit</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div></div></div></div></span><div data-testid="grouped-header-row-container-Akon" class="GroupedHeaderRow GroupedHeaderRow--FlexRollout DesktopUI" style="border-bottom: 1px solid rgb(76, 76, 76);" data-testonly-row-index="10"><div class="GroupedHeaderRow__type-view GroupedHeaderRow__desktop-ui"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Akon</span></div><div class="GroupedHeaderRow__aggregate b-jss556 b-jss557"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="(no-attribute)"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">1</span></div></div></div></div><span data-testid="deck-row-container" data-testonly-row-index="11" id="Deck_RowElement_Status_is_Recorded_5" class="ASTappable DeckRow ASTappable--pointer" style="display: flex; flex-direction: column;" href="#" tabindex="0" role="button"><div class="DeckRow__swipe-action-button" style="position: absolute; left: 55px; margin-top: 45px; vertical-align: middle;"></div><div class="DeckRowSlide b-jss558 b-jss607" id="draggable_RowElement_Status is Recorded_5" data-testid="deck-row-slide-_RowElement_Status is Recorded_5" style="position: relative; left: 0px; padding-left: 16px;"><div class="b-jss559 b-jss608"><div class="b-jss561"><div class="DeckRow__primary-text b-jss562 b-jss609"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Title"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Lonely 180341</span></div></div></div><div class="DeckRow__secondary-text b-jss563"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Akon</span></div></div><div class="b-jss567 b-jss611"><div class="b-jss568"><span data-testonly-action="Open Url (External URL)" data-testid="Open Url (External URL)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (External URL)" title="Open Url (External URL)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa-link"></i><span class="sr-only">Open Url (External URL)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Open Url (Local Doc)" data-testid="Open Url (Local Doc)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (Local Doc)" title="Open Url (Local Doc)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-external-link"></i><span class="sr-only">Open Url (Local Doc)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Edit" data-testid="Edit" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Edit" title="Edit"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-edit"></i><span class="sr-only">Edit</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div></div></div></div></span><div data-testid="grouped-header-row-container-Aladdin" class="GroupedHeaderRow GroupedHeaderRow--FlexRollout DesktopUI" style="border-bottom: 1px solid rgb(76, 76, 76);" data-testonly-row-index="12"><div class="GroupedHeaderRow__type-view GroupedHeaderRow__desktop-ui"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Aladdin</span></div><div class="GroupedHeaderRow__aggregate b-jss556 b-jss557"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="(no-attribute)"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">1</span></div></div></div></div><span data-testid="deck-row-container" data-testonly-row-index="13" id="Deck_RowElement_Status_is_Recorded_840" class="ASTappable DeckRow ASTappable--pointer" style="display: flex; flex-direction: column;" href="#" tabindex="0" role="button"><div class="DeckRow__swipe-action-button" style="position: absolute; left: 55px; margin-top: 45px; vertical-align: middle;"></div><div class="DeckRowSlide b-jss558 b-jss612" id="draggable_RowElement_Status is Recorded_840" data-testid="deck-row-slide-_RowElement_Status is Recorded_840" style="position: relative; left: 0px; padding-left: 16px;"><div class="b-jss559 b-jss613"><div class="b-jss561"><div class="DeckRow__primary-text b-jss562 b-jss614"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Title"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Whole New World</span></div></div></div><div class="DeckRow__secondary-text b-jss563"><div class="TextTypeDisplay BaseTypeDisplay" style="display: block;" data-testid="base-type-display" data-testonly-column="Artist"><span class="TextTypeDisplay__text" data-testid="text-type-display-span">Aladdin</span></div></div><div class="b-jss567 b-jss616"><div class="b-jss568"><span data-testonly-action="Open Url (External URL)" data-testid="Open Url (External URL)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (External URL)" title="Open Url (External URL)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa-link"></i><span class="sr-only">Open Url (External URL)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Open Url (Local Doc)" data-testid="Open Url (Local Doc)" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Open Url (Local Doc)" title="Open Url (Local Doc)"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-external-link"></i><span class="sr-only">Open Url (Local Doc)</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div><div class="b-jss568"><span data-testonly-action="Edit" data-testid="Edit" class="ASTappable GenericActionButton CSSRolloutContainer ReactRootRollout GenericActionButton--small-mode ASTappable--pointer" href="#" tabindex="0" role="button" aria-label="Edit" title="Edit"><div class="GenericActionButton__paddington"><i class="GenericActionButton__icon far fa fa-edit"></i><span class="sr-only">Edit</span></div><div class="GenericActionButton__text" aria-hidden="true"></div></span></div></div></div></div></span></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><span role="presentation" class="b-jss523 Resizer vertical disabled"></span><div class="Pane vertical Pane2  " style="flex: 1 1 0%; position: relative; outline: none;"><span></span></div></div></div></div></div></div></div></div></div></div>
+<div id="InfoPage" class="TopLevelPage InfoPage Animate ActivePage" style="display: none;">
+  
+  <style>
+        @-webkit-keyframes aspinnerfade {
+        0%{background-color:#1D7FCF}
+        1%{background-color:#3dbfea}
+        11%{background-color:#3dbfea}
+        21%{background-color:#1D7FCF}
+        100%{background-color:#1D7FCF}
+        }
+        @keyframes aspinnerfade {
+        0%{background-color:#1D7FCF}
+        1%{background-color:#3dbfea}
+        11%{background-color:#3dbfea}
+        21%{background-color:#1D7FCF}
+        100%{background-color:#1D7FCF}
+        }
+        @-webkit-keyframes aspinnerfade-image {
+        0%{background-color:white}
+        1%{background-color:#3dbfea}
+        11%{background-color:#3dbfea}
+        21%{background-color:white}
+        100%{background-color:white}
+        }
+        @keyframes aspinnerfade-image {
+        0%{background-color:white}
+        1%{background-color:#3dbfea}
+        11%{background-color:#3dbfea}
+        21%{background-color:white}
+        100%{background-color:white}
+        }
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        .aspinner{position:relative}
+        .aspinner > div{-webkit-animation:aspinnerfade 2s linear infinite;animation:aspinnerfade 2s linear infinite;background-color:#1D7FCF;position:absolute;width:8px;height:8px}
+        .aspinner > div:nth-of-type(1){top:0;left:0;-webkit-animation-delay:0;animation-delay:0}
+        .aspinner > div:nth-of-type(2){top:0;left:50%;margin-left:-4px;-webkit-animation-delay:.25s;animation-delay:.25s}
+        .aspinner > div:nth-of-type(3){top:0;right:0;-webkit-animation-delay:.5s;animation-delay:.5s}
+        .aspinner > div:nth-of-type(4){top:50%;right:0;margin-top:-4px;-webkit-animation-delay:.75s;animation-delay:.75s}
+        .aspinner > div:nth-of-type(5){bottom:0;right:0;-webkit-animation-delay:1s;animation-delay:1s}
+        .aspinner > div:nth-of-type(6){bottom:0;left:50%;margin-left:-4px;-webkit-animation-delay:1.25s;animation-delay:1.25s}
+        .aspinner > div:nth-of-type(7){bottom:0;left:0;-webkit-animation-delay:1.5s;animation-delay:1.5s}
+        .aspinner > div:nth-of-type(8){top:50%;left:0;margin-top:-4px;-webkit-animation-delay:1.75s;animation-delay:1.75s}
+
+        #InfoPage {
+            border-top: 0;
+        }
+        #LaunchScreen {
+            background: #f1f1f1;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        .LoadStatusDiv {
+            left: 0;
+            right: 0;
+            position: absolute;
+            bottom: 0;
+            margin: auto;
+            max-width: 768px;
+            height: 33%;
+            width: 100%;
+        }
+
+        .LoadingStatus {
+            background: rgba(255, 255, 255, 0.4);
+            left: 50%;
+            margin: auto;
+            overflow: hidden;
+            position: absolute;
+            top: 56px;
+            -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+            width: 100%;
+        }
+        .LoadingStatus .bar {
+            background: #3DBFEA;
+            box-sizing: border-box;
+            height: 8px;
+            -webkit-transition: width 0.6s ease;
+            transition: width 0.6s ease;
+        }
+
+        .LoadingStatusLabel {
+            box-sizing: border-box;
+            color: #666;
+            font-size: 16px;
+            height: 56px;
+            position: relative;
+            text-align: left;
+            width: 100%;
+        }
+
+        .aspinner {
+            height: 36px;
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            width: 36px;
+        }
+        .ReactRootSpinner {
+          border: 3px solid white;
+          border-top: 3px solid #1D7FCF;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          position: absolute;
+          top: 40%;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          animation: spin 1s ease-in-out infinite;
+          stroke-dasharray: 80px, 200px;
+          stroke-dashoffset: 0px;
+        }
+        #LaunchScreen.HasBackgroundImage .aspinner > div {
+            -webkit-animation-name: aspinnerfade-image;
+            animation-name: aspinnerfade-image;
+            background-color:white;
+        }
+        body:not(.IsReactRoot) .ReactRootSpinner {
+          display: none;
+        }
+        body.IsReactRoot .LoadStatusDiv {
+          display: none;
+        }
+    </style>
+  <div id="LaunchScreen" class="InfoScreen">
+    <div class="AppTestMode AppWarningMode" style="display:none;">
+      <div class="WarningTitle">
+        This app is in test mode.
+      </div>
+      <div class="WarningDetails">
+        Please ask the app creator to run a deployment check. We've added a delay to ensure that you see this message.
+      </div>
+    </div>
+    <div class="AppSubscribeMode AppWarningMode" style="display:none;">
+      <div class="WarningTitle">
+        A plan upgrade is needed.
+      </div>
+      <div class="WarningDetails">
+        Please inform the app creator. We've added a delay to ensure that you see this message.
+      </div>
+    </div>
+    <div class="AppBlockedMode AppWarningMode" style="display:none;">
+      <div class="WarningTitle">
+        App blocked because a plan upgrade is needed.
+      </div>
+      <div class="WarningDetails">
+        This app has been blocked. Please inform the app creator.
+      </div>
+    </div>
+      <div class="ReactRootSpinner"></div>
+      <div class="LoadStatusDiv">
+        <div class="LoadingStatusLabel LoadingFromCacheStatusLabel" style="display:none;">
+          <span class="LoadingStatusLabelMain">Starting up</span>
+        </div>
+        <div class="LoadingStatusLabel SyncingStatusLabel" style="display:none;">
+          <span class="LoadingStatusLabelMain">Syncing the app</span>
+        </div>
+        <div class="aspinner">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="LoadingStatus">
+          <div class="bar" style="width: 0%"></div>
+        </div>
+      </div>
+    <div class="ErrorMessage" style="display:none"></div>
+    <div class="ButtonPane">
+      <span class="btn CancelButton" style="display:none">Cancel</span>
+      <span class="btn DiscardChangesButton" style="display:none">Discard[<span class="QueuedChangeCount"></span>]</span>
+      <span class="btn btn-blue SyncButton" style="display:none">
+        Sync Data[<span class="QueuedChangeCount"></span>]
+      </span>
+    </div>
+  </div>
+  <div id="LoginSwitch" class="InfoScreen" style="display:none">
+    <p>
+
+    </p>
+    <p>
+      Redirecting to the login page ....
+    </p>
+  </div>
+  <div id="RefreshInfo" class="InfoScreen" style="display:none;">
+    <p>
+
+    </p>
+    <p>
+      Refreshing the application and data ....
+    </p>
+  </div>
+  <div id="AboutScreen" class="InfoScreen" style="display:none; height: 100%">
+  </div>
+  <div id="ShowChangesScreen" class="InfoScreen" style="display:none;">
+    <h3>Queued local changes</h3>
+    <table class="table table-responsive" style="font-size:small;max-width:768px;margin:auto;text-align:left">
+      <thead>
+      <tr>
+        <td>Action</td>
+        <td>Params</td>
+      </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <div class="ButtonPane">
+      <button class="btn OKButton">OK</button>
+    </div>
+  </div>
+  <div id="ImageViewScreen" class="InfoScreen" style="display:none;min-height:100%;margin:auto;position:relative;background-position:50% 50%;background-repeat:no-repeat;background-size:contain;color:#444">
+    <img>
+    <div class="ButtonPane" style="position:absolute;bottom:50px;left:0;right:0">
+      <button class="btn OKButton">OK</button>
+    </div>
+  </div>
+
+</div>
+<div class="AppHeaderContainer"></div>
+<div id="header"></div> 
+<div id="FullScreenOverlay" style="display:none"></div>
+
+  <div id="TempUserRail" style="display:none">
+    <span id="UserRailMessage"></span>
+  </div>
+  <div id="NavContainer" class="FlatStyle">
+    <div id="FixedNavLeft" class="FixedNav">
+    </div>
+    <div class="NavArrow NavArrow-Left"></div>
+    <div id="FixedNavRight" class="FixedNav">
+    </div>
+    <div class="NavArrow NavArrow-Right"></div>
+    <div id="FixedNavTop" class="FixedNavVertical">
+    </div>
+    <div id="FixedNavBottom" class="FixedNavVertical">
+    </div>
+  </div>
+
+
+<div class="SideMenuContainer"></div>
+
+<div id="FormPage" class="TopLevelPage FormPage OffscreenRight">
+</div>
+<div id="MapPage" class="TopLevelPage MapPage OffscreenRight">
+  
+  <div id="LoadingMapDetails" class="spinner" style="display:none;">
+    Fetching map...
+  </div>
+  <div id="mapPane" style="display:none">
+    <div id="mapDetailsDisplay">
+      <div class="AllItems" style="display:none">
+        <div class="AllItemsHeader" style="padding:5px;font-size:0.75em">
+          <i class="icon-list icon-white"></i><span> All</span>
+        </div>
+        <div class="ItemList" style="display:none">
+        </div>
+      </div>
+      <div class="ItemInfo" style="display:none">
+        <div class="ItemDetails">
+          <div class="ItemDetailEntry" style="display:none">
+            <div class="ItemDetailImage"></div>
+          </div>
+        </div>
+        <div class="ItemAttribute ItemName"></div>
+        <a href="#" class="ItemAttribute ItemDirections" target="_blank">
+          <i class="icon fa fa-car"></i>
+        </a>
+      </div>
+    </div>
+    <div id="mapPaneDisplay" class="InternalLink">
+    </div>
+  </div>
+
+
+</div>
+<div id="GoogleMapPage" class="TopLevelPage GoogleMapPage OffscreenRight">
+
+</div>
+<div class="alert alert-info" id="alert_template" style="display: none;position:fixed;margin:auto;top:50px;left:0;right:0;z-index:10000;color:brown">
+  <button type="button" class="close">×</button>
+</div>
+<div class="ErrorPopupContainer"></div>
+<div id="ControlWarehouse" style="display: none">
+  <div class="TablePage TopLevelPage OffscreenRight">
+    
+  <div class="EmptyTableView doNotShow">
+    [no entries]
+  </div>
+  <ul class="nav nav-tabs nav-stacked TableCollection">
+  </ul>
+
+  </div>
+  <div class="FastTablePage TopLevelPage OffscreenRight">
+    
+  <div class="EmptyFastTableView doNotShow">
+    [no entries]
+  </div>
+  <div class="FastTableDisplay"></div>
+
+  </div>
+  <div class="TopLevelPage FormPage OffscreenRight">
+  </div>
+  <div class="GoogleMapPage TopLevelPage OffscreenRight"></div>
+  <div class="CalendarPage TopLevelPage OffscreenRight"></div>
+  <div class="ListPage TopLevelPage OffscreenRight"></div>
+  <div class="DeckPage TopLevelPage OffscreenRight"></div>
+  <div class="IFramePage TopLevelPage OffscreenRight"></div>
+  <div class="OnboardingPage TopLevelPage OffscreenRight IsFullScreenModal"></div>
+  <div class="GalleryPage TopLevelPage OffscreenRight"></div>
+  <div class="GraphPage TopLevelPage OffscreenRight">
+    
+
+  <div class="GraphHeader" style="position:absolute;top:0;width:100%;display:none">
+    <h4 class="GraphName"></h4>
+  </div>
+  <div class="GraphDisplay" style="position:relative;height:100%;width:100%;"></div>
+
+  </div>
+  <div id="ErrorDialog" class="UserInfoDialog">
+    <p id="ErrorDialogText">
+    </p>
+  </div>
+  <div id="HelpMessage" class="UserInfoDialog">
+    <p id="HelpMessageText">
+    </p>
+  </div>
+  <div id="ImageUploadUtilsTemplate" class="FileUploadUtils">
+    <form class="FileUploadForm">
+      <input class="FileUploadInput" type="file" value="" id="imageInputFile" name="imageInputFile" accept="image/*" capture="">
+      <input type="submit" style="display:none;">
+    </form>
+  </div>
+  <div id="FileUploadUtilsTemplate" class="FileUploadUtils">
+    <form class="FileUploadForm">
+      <input class="FileUploadInput" type="file" value="" id="imageInputFile" name="imageInputFile" accept="application/pdf" capture="">
+      <input type="submit" style="display:none;">
+    </form>
+  </div>
+  <a href="#" class="ContextualAction DefaultButton">
+    <span class="ButtonText">
+    </span>
+  </a>
+  
+
+  <div class="GalleryEntry">
+    <div class="GalleryEntryImage">
+      <img class="PrintOnlyPhoto" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+    </div>
+    <div class="QuickAction" style="display:none">
+      <a href="#"></a>
+    </div>
+    <div class="EntryInfo">
+      <i class="delete icon icon-remove icon-white"></i>
+      <span class="title"></span>
+    </div>
+  </div>
+
+  <div class="FlowEntry">
+    <div class="FlowEntryWrapper">
+
+      <div class="EntryInfo" style="overflow:hidden">
+        <div class="title"></div>
+        <div class="shortContent"></div>
+        <i class="icon icon-plus ExpandSymbol"></i>
+        <i class="icon icon-minus CollapseSymbol"></i>
+        <i class="icon icon-ok icon-white ProcessedSymbol"></i>
+      </div>
+      <div class="FlowEntryImage">
+        <img class="PrintOnlyPhoto" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+      </div>
+      <div class="ActionSection">
+        <span class="actionText">
+        </span>
+        <span class="userAction">
+        </span>
+      </div>
+      <div class="DetailSection">
+        <div class="fullContent">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="FormEntry control-group">
+    <div class="FormEntryLabel control-label">
+      <span class="FieldCount"></span>
+      <span class="FieldName"></span>
+      <span class="FieldDescription"></span>
+    </div>
+    <div class="FormEntryValue controls">
+
+    </div>
+  </div>
+
+  <div class="FormPageHeader">
+    <span></span>
+  </div>
+
+  <div class="ExternalContentAttribute TemplateDefinition">
+    <div class="heading">
+      <span></span>
+    </div>
+    <div class="value">
+      <!--
+      <textarea class="EditableAttributeValue" style="overflow: hidden; word-wrap: break-word; resize: none; height: 28px;"></textarea>
+      -->
+    </div>
+    <div class="InputFlag">
+      <i class="icon icon-white icon-flag"></i>
+    </div>
+  </div>
+
+  <div class="RelatedLink">
+    <i class="icon icon-white icon-flag RelatedPostFlag" style="display:none;background-color:red;position:absolute;bottom:0px;right:0px"></i>
+  </div>
+
+  <div class="TableWidgets">
+    <li class="TableEntry">
+      <a class="TableName" href="#foobar11" data-toggle="collapse" data-target="#foobar11" style="text-decoration:none; font-size:0.8em;font-weight:bold">
+      </a>
+      <div id="foobar11" class="collapse in TableWrapper">
+        <div class="TabularDisplay">
+          <table class="table" style="table-layout:fixed;font-size:0.75em;">
+            <thead>
+            <tr class="TableHeader">
+            </tr>
+            </thead>
+            <tbody class="TableBody">
+            <tr class="TableRow DummyValue">
+              <td class="TableKeyFieldValue DummyValue" colspan="8"></td>
+              <td class="TableCompactFieldValue DummyValue" colspan="2"></td>
+              <td class="TableFullFieldValue DummyValue" colspan="4"></td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="CardDisplay TableBody">
+        </div>
+      </div>
+    </li>
+
+    <div class="CardEntry">
+      <div class="CardEntryWrapper">
+        <div class="EntryInfo" style="overflow:hidden">
+          <div class="title"></div>
+        </div>
+        <div class="CardEntryImage">
+          <img class="PrintOnlyPhoto" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+        </div>
+        <div class="DetailSection">
+          <div class="FullCardEntryImage"></div>
+        </div>
+
+        <i class="icon icon-plus ExpandSymbol"></i>
+        <i class="icon icon-minus CollapseSymbol"></i>
+      </div>
+    </div>
+
+    <div class="TableEntryScreen" style="display:none;">
+      <div class="ErrorMessage hidden">
+        <span class="fa fa-warning"></span><span class="ErrorMessageText"></span>
+      </div>
+      <form class="EntryScreenAttributes EntryForm form-vertical" onsubmit="return false;">
+
+      </form>
+    </div>
+  </div>
+
+  <div id="ModalTemplate" class="modal hide fade">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <span class="ProcessingStatus" style="visibility:hidden;float:right;">
+        <img src="/Content/img/ajax-loader.gif">
+      </span>
+      <h4></h4>
+    </div>
+    <div class="modal-body"></div>
+    <div class="modal-footer"></div>
+  </div>
+  <div id="GiveFeedbackBody">
+    <div class="UserSupport" style="margin:10px;text-align:center">
+      We're here to help.
+      <a id="SupportLink" href="#" style="text-decoration:none; color:inherit">
+        <span style="display:inline; text-decoration:underline;font-size:larger">Help</span>
+      </a>
+    </div>
+  </div>
+  <div id="ConfirmResetBody">
+    <p>
+      Switching to the application gallery. This requires internet access. Proceed?
+    </p>
+  </div>
+  <div id="ConfirmLoseChanges">
+    <p>
+      This will permanently discard local changes. Proceed?
+    </p>
+  </div>
+  <div id="InformUnsavedChanges">
+    <p>
+      Local changes have not been synced.<br>
+      Proceed anyway?
+    </p>
+  </div>
+
+  <div id="HiddenAElements">
+    <a href="#" id="MailToLink"></a>
+
+  </div>
+  <span class="WaitingGifSpan">
+    <img class="WaitingGif" src="/Content/img/ajax-loader.gif">
+  </span>
+
+  <div class="ViewExtension UrlViewExtension">
+    <div class="UrlViewExtensionLink">
+      <span class="ButtonText"></span>
+    </div>
+  </div>
+
+
+  <br>
+</div>
+
+<div id="footer" class="FooterRail" style="display:none;">
+  <div id="FooterPopup" class="FooterPopup Invisible"></div>
+  <div class="FooterControls" style="height:0;">
+
+    <a href="#" class="ControlButton ActionButton SystemButton ControlLeftMostPosition" id="FooterShareButton" data-position="left-most">
+      <div class="ButtonText">
+        <i class="icon fa-share fa"></i>
+        <div classname="ButtonName"><!-- Share text goes here via js --></div>
+      </div>
+    </a><!-- inline-block
+
+    -->
+    <a href="#" class="ControlButton VariableButton ControlLeftButton" style="display:none" data-position="left">
+      <div class="ButtonText">
+        <i class="icon"></i>
+        <div class="ButtonName"></div>
+      </div>
+    </a><!-- inline-block
+
+    -->
+    <a href="#" class="ControlButton AllPageControl VariableButton ControlCenterButton" style="display:none" data-position="center">
+      <div class="ButtonText">
+        <i class="icon"></i>
+        <div class="ButtonName"></div>
+      </div>
+    </a><!-- inline-block
+
+    -->
+    <a href="#" class="ControlButton VariableButton ControlRightButton" style="display:none" data-position="right">
+      <div class="ButtonText">
+        <i class="icon"></i>
+        <div class="ButtonName"></div>
+      </div>
+    </a><!-- inline-block
+
+    -->
+    <a href="#" class="ControlButton ActionButton SystemButton ControlRightMostPosition" id="FooterSyncButton" data-position="right-most">
+      <div class="ButtonText">
+        <i class="icon fa fa-cloud"></i>
+        <div>
+          <span class="SyncLabel"><!-- Sync text goes here via js --></span>
+          <span class="QueueInfo">[<span class="QueuedChangeCount">0</span>]</span>
+          <span class="WaitingGifSpan SyncProgressIndicator">
+            <img class="WaitingGif" src="/Content/img/ajax-loader.gif">
+          </span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+  <div class="AppFooterContainer" style="position: fixed; bottom: 0; width: 100%;"></div>
+</div>
+
+<script nonce="">
+  var JeeneeNamespace = {};
+</script>
+
+
+  <script nonce="">
+        window.VerifiedAjaxPostToken = 'dummy:dummy';
+        var verifiedAjaxPost = function (options, errorOptions) {
+            if (!options.headers) {
+                options.headers = {}
+            }
+            options.method = 'POST'
+
+            errorOptions = errorOptions || {};
+            return $.ajax(options).fail((jqXHR, textStatus, errorThrown) => {
+                if (
+                    !errorOptions.disableErrorReporting &&
+                    window.ErrorHandling &&
+                    typeof window.ErrorHandling.ReportHttpError === 'function'
+                ) {
+                    window.ErrorHandling.ReportHttpError('post', options.url, jqXHR.status, {
+                        error: errorOptions.error,
+                        errorThrown,
+                        textStatus,
+                        responseText: jqXHR.responseText,
+                    });
+                }
+            });
+        }
+        window.verifiedAjaxPost = verifiedAjaxPost
+
+        // GLOBALS
+        window.DEBUG_MODE = false
+        window.ALLOW_DEBUG_LOGGING = false
+
+        window.getUserId = function () {
+            return '108701728'
+        }
+
+        // Remove this, this is no longer used in the client.
+        window.AppReactRootRollout = "true";
+    </script>
+
+  <script nonce="">
+        window.AppSheetPageLoadTime = new Date().getTime();
+        window.EnableErrorReporting = true;
+        window.onbeforeunload = function () {
+            console.log('Quiescing App');
+            window.QuiesceApp = true;
+        }
+    </script>
+
+  <script nonce="" src="https://www.appsheet.com/assets/f51e5224877dd19b2f2144416ee3e2395e5e5bf8521648bb4c4844014a031334.js"></script>
+<script nonce="" src="https://www.appsheet.com/assets/dbe9d523c72cd83096b72d7507a4689acf1977ee1e3e8f7db4cd6caf99e6ffb8.js"></script>
+<script nonce="" src="https://www.appsheet.com/assets/0b1d89251b955689ea1caf6f75ebe460e782a020c6b59ba78023ff2c4cb01432.js"></script>
+<script nonce="" src="https://www.appsheet.com/assets/120bd820a4d0569140d44c5f4e884d5747ced420e0b1661dfe5ca934af9327a2.js"></script>
+<script nonce="" src="https://www.appsheet.com/assets/8a17ddc52c7a925370d6ff0608c313f954baa1acc4cd13757fd1998297ff1eca.js"></script>
+<script nonce="" src="https://www.appsheet.com/assets/20e1b20876f340fa6721c1fa4a1972d311574d7c69696891c84000fbd80ce898.js"></script>
+<script nonce="" src="https://www.appsheet.com/assets/416b81a172c0cd022c5cabc8d7350d1bcb3e7080784d84ae0296fe694ed529fb.js"></script>
+<script nonce="" src="https://www.appsheet.com/assets/fc2805c6a367a58f4ec86ea11333360886d92287d10d95e6c25d2f9b550c36f3.js"></script>
+
+  
+        <script nonce="" type="application/json" id="css-entry-points">
+          {"ltr":"https://www.appsheet.com/assets/19900ecba3644aa0c4b66346b50d501000ed8e8659906b0b7d05751a533a4015.css","rtl":"https://www.appsheet.com/assets/f4046625bb6188fe74eb4e027a0ba229e1d44a636341ee4bedebcbb867c7880e.css"}
+        </script>
+      
+
+
+  <script nonce="">
+        (function () {
+            var initializeAppParams = {"ImplicitlyChosenApp":false,"AppTemplateName":"ValdensChordOrganizer-Copy-108701728","AppId":"9f1ff58d-c4c4-4470-bd76-6a29fc2cb1ca","AppVersion":null,"AppTemplateTheme":"Dark - #43a047","ProductVersion":5.1,"RequiredAndroidVersion":3.0,"RequiredIOSVersion":4.3,"NewAppGalleryPage":false,"UseDesktopUI":true,"UseMobileReactRoot":true};
+
+            if (!window.hasOwnProperty('initializeApp')) {
+                if (window.hasOwnProperty('caches')) {
+                    if (window.hasOwnProperty('ErrorHandling')) {
+                        ErrorHandling.ReportError({
+                            errorMessage: 'Warning: Detected stale bundle, flushing cache',
+                            error: null,
+                            suppressBackendPost: false,
+                        })
+                    }
+
+                    caches.keys()
+                        .then(function (keyNames) {
+                            return Promise.all(keyNames.map(function (keyName) { caches.delete(keyName) }))
+                        })
+                        .then(function () {
+                            if (confirm(
+                                'There was an error loading the app, press ok to try with the latest version')) {
+                                location.href = ''
+                            }
+                        })
+                }
+                else {
+                    if (window.hasOwnProperty('ErrorHandling')) {
+                        ErrorHandling.ReportError({
+                            errorMessage: 'Fatal: detected stale bundle, but no cache',
+                            error: null,
+                            suppressBackendPost: false,
+                        })
+                    }
+
+                    if (confirm(
+                        'There was an error loading the app, press ok to try with the latest version')) {
+                        location.reload(true)
+                    }
+                }
+            }
+            else {
+                initializeApp(initializeAppParams);
+            }
+        })()
+    </script>
+  <script nonce="" type="text/javascript" src="/Content/build/notification-client.js"></script>
+
+
+
+<div role="presentation" class="h-jss39" style="position: fixed; z-index: 1300; inset: 0px; visibility: hidden;" aria-hidden="true"><div tabindex="0" data-test="sentinelStart"></div><div class="h-jss41 h-jss37 h-jss40 h-jss47 h-jss42" style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden;" tabindex="-1"><ul class="h-jss69 h-jss38 h-jss70" role="menu" tabindex="0"></ul></div><div tabindex="0" data-test="sentinelEnd"></div></div>

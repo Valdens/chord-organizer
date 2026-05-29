@@ -1,0 +1,14 @@
+**
+!Code.js
+!appsscript.json
+!schema.md
+node_modules/**
+backend/**
+frontend/**
+images/**
+.firebase/**
+firebase.json
+firestore.indexes.json
+firestore.rules
+package.json
+src/**
