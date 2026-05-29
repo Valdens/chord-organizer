@@ -5,7 +5,7 @@
 ---
 
 <p align="center">
-  <strong>Own your music. Own your stage. Zero monthly fees.</strong>
+  <strong>Own your music. Own your stage. Completely free.</strong>
 </p>
 
 **Valdens Chord Organizer** is an ultra-premium, self-hosted web vault designed for gigging musicians, buskers, and stage performers to search, organize, and transpose chords with absolute data ownership. Built to directly replace expensive monthly subscriptions that lock your catalog behind paywalls, Chord Organizer deploys entirely within Google's free serverless tiers ($0/month hosting forever). With a dark glassmorphic UI optimized for low-light stage use, real-time transposer sliders, and automated AI chord-engraving, you get a seamless performance companion under your absolute control. Zero ads, zero monthly fees, and complete custody over your stage library.
