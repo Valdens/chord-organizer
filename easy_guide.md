@@ -1,7 +1,7 @@
 # 🎸 Musician's Zero-Code Guide to Setting Up Chord Organizer
 
 <p align="center">
-  <img src="images/chord_organizer_brand_logo.png" width="500" alt="Chord Organizer Logo" />
+  <img src="images/chord_organizer_logo_thin.png" width="500" alt="Chord Organizer Logo" />
 </p>
 
 ---
