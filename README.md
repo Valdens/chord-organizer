@@ -35,7 +35,7 @@ Most chord library applications on the market today lock your song library, anno
 ## 🏗️ System Architecture
 
 ```mermaid
-flowchart LR
+flowchart TD
     %% Custom Styling Definitions
     classDef client fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#e0e7ff;
     classDef service fill:#3b0764,stroke:#c084fc,stroke-width:2px,color:#f3e8ff;
