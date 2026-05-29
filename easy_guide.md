@@ -1,5 +1,11 @@
 # 🎸 Musician's Zero-Code Guide to Setting Up Chord Organizer
 
+<p align="center">
+  <img src="images/chord_organizer_brand_logo.png" width="700" alt="Chord Organizer Logo" />
+</p>
+
+---
+
 Hey there! 🧑‍🎤 Whether you're a gigging busker, a stage performer, a singer-songwriter, or just someone who loves playing music, **you do not need to be a "tech bro" or a software developer to host your own Chord Organizer.** 
 
 By following this step-by-step guide, you will deploy a private, secure, and beautiful stage-ready library for your chords under **your absolute ownership**—and the best part? It runs entirely on **100% free tiers** with zero monthly subscription fees!

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Valdens/chord-organizer/main/images/chord_organizer_brand_logo.png?v=4" width="700" alt="Chord Organizer Logo" />
+  <img src="images/chord_organizer_brand_logo.png" width="700" alt="Chord Organizer Logo" />
 </p>
 
 ---
@@ -21,19 +21,19 @@
 * **📱 Main Dashboard & Search**: *Your stage-ready homepage. Rapid search filters your library in real-time (e.g. instantly searching by "Rock" or other genres), complete with sorting parameters, custom song badges (Recorded / Unrecorded), and favorite/star indicators for your setlists.*
   <br>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/Valdens/chord-organizer/main/images/dashboard_main_view.png?v=4" width="65%" style="border-radius: 8px; border: 1px solid #333; box-shadow: 0 4px 12px rgba(0,0,0,0.5);" alt="Main Dashboard View" />
+    <img src="images/dashboard_main_view.png" width="65%" style="border-radius: 8px; border: 1px solid #333; box-shadow: 0 4px 12px rgba(0,0,0,0.5);" alt="Main Dashboard View" />
   </p>
 
 * **🎸 Immersive Chord Sheet Viewer**: *Your performance companion. Clean, green-highlighted chord blocks are aligned perfectly above lyrics. Features real-time sliders for chord size and layout spacing adjustments, pitch-shifting key transposer controls, full-screen stage mode, and a smart-wrap toggle.*
   <br>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/Valdens/chord-organizer/main/images/song_chords_view.png?v=4" width="65%" style="border-radius: 8px; border: 1px solid #333; box-shadow: 0 4px 12px rgba(0,0,0,0.5);" alt="Individual Song View" />
+    <img src="images/song_chords_view.png" width="65%" style="border-radius: 8px; border: 1px solid #333; box-shadow: 0 4px 12px rgba(0,0,0,0.5);" alt="Individual Song View" />
   </p>
 
 * **📊 Library Overview & Stats**: *Keep track of your catalog distributions. Real-time stats display your total song counts, AI cleaned progress, and interactive bar charts breaking down your song counts across every music genre (Rock, Pop, Soundtracks, Folk, Indie, Jazz).*
   <br>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/Valdens/chord-organizer/main/images/library_stats_view.png?v=4" width="65%" style="border-radius: 8px; border: 1px solid #333; box-shadow: 0 4px 12px rgba(0,0,0,0.5);" alt="Library Overview & Stats" />
+    <img src="images/library_stats_view.png" width="65%" style="border-radius: 8px; border: 1px solid #333; box-shadow: 0 4px 12px rgba(0,0,0,0.5);" alt="Library Overview & Stats" />
   </p>
 
 ---
