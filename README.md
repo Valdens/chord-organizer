@@ -114,10 +114,13 @@ Configure the following env vars in your Google Cloud Run dashboard or local `.e
 * `FIREBASE_SERVICE_ACCOUNT`: The parsed JSON string of your Firebase IAM Admin Service Account key.
 * `GEMINI_API_KEY`: Your Google Gemini API Key.
 * `SCRAPE_DO_TOKEN`: Your Scrape.do Residential Proxy Token.
+* `APPS_SCRIPT_URL`: (Optional) Your private Google Apps Script Web App URL.
+* `APPS_SCRIPT_SECRET`: (Optional) Shared secret token to authenticate requests from Cloud Run to Google Apps Script.
 
 ### 2. Google Apps Script Properties
-For Google Doc integrations, load the following key in your Apps Script **Project Settings ➔ Script Properties**:
+For Google Doc integrations, load the following keys in your Apps Script **Project Settings ➔ Script Properties**:
 * `GEMINI_API_KEY`: Your Google Gemini API Key.
+* `APPS_SCRIPT_SECRET`: (Optional) Shared secret token (matching the Cloud Run `APPS_SCRIPT_SECRET` variable) to protect the Web App from unauthorized access.
 
 ---
 

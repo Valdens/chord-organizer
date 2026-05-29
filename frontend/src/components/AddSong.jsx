@@ -5,8 +5,6 @@ import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { db, auth } from '../firebase';
 import { useNavigate } from 'react-router-dom';
 
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwgUo86seO5J7zy2YHl_-LtX80YOEC9DDyIP5GWVawA1eindYPvhXwg3vcBlmVl2PFJ/exec";
-
 function standardizeGenre(genreStr) {
   if (!genreStr) return 'Misc / Unknown';
   const g = genreStr.toLowerCase().trim();

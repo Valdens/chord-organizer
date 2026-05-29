@@ -52,12 +52,13 @@ We use Google Apps Script as a secure "safe vault" to run your web queries witho
 5. Open the file **`Code.js`** from this repository (you can view it in your browser or a text editor), select all of its contents, copy it, and paste it directly into the Apps Script editor.
 6. Click the **Save** icon (disk symbol at the top).
 
-### 🔒 Store Your Gemini Key Safely:
+### 🔒 Store Your Keys Safely:
 1. In the Apps Script sidebar on the left, click the **Gear Icon** (Project Settings).
 2. Scroll down to the section named **"Script Properties"** and click **"Add script property"**.
-3. In the **Property** box, type exactly: `GEMINI_API_KEY`
-4. In the **Value** box, paste your long Gemini API Key from **Step 1** (`AIzaSy...`).
-5. Click **"Save script properties"**.
+3. Configure the following two properties:
+   * **Property**: `GEMINI_API_KEY` ➔ **Value**: Your long Gemini API Key from **Step 1** (`AIzaSy...`).
+   * **Property**: `APPS_SCRIPT_SECRET` ➔ **Value**: A custom secure token you create (like a strong password, e.g. `MySecureStageSecretToken456!`). This ensures your Web App cannot be accessed publicly!
+4. Click **"Save script properties"**.
 
 ### ⚡ Publish the Web App:
 1. In the top-right corner, click **Deploy** ➔ **New deployment**.
@@ -106,8 +107,7 @@ Now we just need to let your frontend stage website know how to talk to your new
    ```
 5. Open your local code folder on your computer. Go to the file **`frontend/src/firebase.js`** and open it in a basic text editor (like Notepad or TextEdit).
 6. Replace the placeholder values in `firebaseConfig` with your actual keys from the Firebase console.
-7. Locate the variable `APPS_SCRIPT_URL` at the top of that file, and paste your Google Apps Script Web App URL from **Step 3** between the quotation marks.
-8. Save and close the file.
+7. Save and close the file.
 
 ### 2. Deploy to the Web!
 You can compile and deploy this app directly to Firebase in seconds. If you have the Firebase CLI installed on your computer:

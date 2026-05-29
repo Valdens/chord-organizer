@@ -31,7 +31,7 @@ function unjamChords(text) {
  * @param {string} params.appsScriptUrl - URL proxy for Google Doc reading.
  * @returns {Promise<Object>} Standardized metadata and clean aligned chords.
  */
-async function scrapeAndCleanChords({ url, scrapeDoToken, geminiApiKey, appsScriptUrl }) {
+async function scrapeAndCleanChords({ url, scrapeDoToken, geminiApiKey, appsScriptUrl, appsScriptSecret }) {
   if (!url) throw new Error("No URL provided.");
   if (!geminiApiKey) throw new Error("Missing Gemini API Key.");
 
@@ -45,7 +45,10 @@ async function scrapeAndCleanChords({ url, scrapeDoToken, geminiApiKey, appsScri
     if (docIdMatch) {
       if (!appsScriptUrl) throw new Error("Missing Apps Script URL for Google Doc fetch.");
       console.log(`[CORE ENGINE] Fetching Google Doc text via Apps Script proxy: ${docIdMatch[0]}`);
-      const proxyUrl = `${appsScriptUrl}?action=getDoc&id=${docIdMatch[0]}`;
+      let proxyUrl = `${appsScriptUrl}?action=getDoc&id=${docIdMatch[0]}`;
+      if (appsScriptSecret) {
+        proxyUrl += `&secret=${appsScriptSecret}`;
+      }
       const response = await fetch(proxyUrl);
       if (!response.ok) throw new Error(`Google Doc fetch failed! Status: ${response.status}`);
       const result = await response.json();

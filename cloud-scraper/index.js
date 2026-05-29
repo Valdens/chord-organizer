@@ -31,7 +31,8 @@ if (saJson) {
 
 const db = admin.firestore();
 const SCRAPE_DO_TOKEN = process.env.SCRAPE_DO_TOKEN || "";
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwgUo86seO5J7zy2YHl_-LtX80YOEC9DDyIP5GWVawA1eindYPvhXwg3vcBlmVl2PFJ/exec";
+const APPS_SCRIPT_URL = process.env.APPS_SCRIPT_URL || "https://script.google.com/macros/s/AKfycbwgUo86seO5J7zy2YHl_-LtX80YOEC9DDyIP5GWVawA1eindYPvhXwg3vcBlmVl2PFJ/exec";
+const APPS_SCRIPT_SECRET = process.env.APPS_SCRIPT_SECRET || "";
 
 app.post('/clean', async (req, res) => {
   // --- JWT Authentication Gate ---
@@ -83,7 +84,8 @@ app.post('/clean', async (req, res) => {
       url: song.externalUrl,
       scrapeDoToken: SCRAPE_DO_TOKEN,
       geminiApiKey: process.env.GEMINI_API_KEY,
-      appsScriptUrl: APPS_SCRIPT_URL
+      appsScriptUrl: APPS_SCRIPT_URL,
+      appsScriptSecret: APPS_SCRIPT_SECRET
     });
 
     // Save outputs back to Firestore

@@ -17,6 +17,17 @@ function getDocContent(idOrUrl) {
  * WEB APP API ENTRY POINT
  */
 function doGet(e) {
+  const secret = e.parameter.secret;
+  const storedSecret = PropertiesService.getScriptProperties().getProperty('APPS_SCRIPT_SECRET') || "";
+
+  // Secure Gate: If a secret is configured in Script Properties, enforce validation
+  if (storedSecret && secret !== storedSecret) {
+    return ContentService.createTextOutput(JSON.stringify({
+      success: false,
+      error: "Unauthorized: Invalid Apps Script Secret Token."
+    })).setMimeType(ContentService.MimeType.JSON);
+  }
+
   const action = e.parameter.action;
 
   if (action === "listSongs") {
@@ -32,18 +43,6 @@ function doGet(e) {
       success: true,
       data: getDocContent(id)
     })).setMimeType(ContentService.MimeType.JSON);
-  }
-
-  if (action === "debugHtml") {
-    const url = e.parameter.url;
-    const ua = e.parameter.ua || "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)";
-    const html = UrlFetchApp.fetch(url, {
-      'muteHttpExceptions': true,
-      'headers': {
-        'User-Agent': ua
-      }
-    }).getContentText();
-    return ContentService.createTextOutput(html).setMimeType(ContentService.MimeType.TEXT);
   }
 
   if (action === "scrapeChords") {
@@ -69,6 +68,17 @@ function doGet(e) {
  * Allows the new Firebase app to use Apps Script as a proxy to bypass UG blocks and classify songs with Gemini.
  */
 function doPost(e) {
+  const secret = e.parameter.secret;
+  const storedSecret = PropertiesService.getScriptProperties().getProperty('APPS_SCRIPT_SECRET') || "";
+
+  // Secure Gate: If a secret is configured in Script Properties, enforce validation
+  if (storedSecret && secret !== storedSecret) {
+    return ContentService.createTextOutput(JSON.stringify({
+      success: false,
+      error: "Unauthorized: Invalid Apps Script Secret Token."
+    })).setMimeType(ContentService.MimeType.JSON);
+  }
+
   const GEMINI_API_KEY = PropertiesService.getScriptProperties().getProperty('GEMINI_API_KEY') || "";
 
   try {

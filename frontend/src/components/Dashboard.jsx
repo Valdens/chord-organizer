@@ -13,8 +13,6 @@ import { collection, query, onSnapshot, orderBy, doc, updateDoc } from 'firebase
 import { db, auth } from '../firebase';
 import axios from 'axios';
 
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwgUo86seO5J7zy2YHl_-LtX80YOEC9DDyIP5GWVawA1eindYPvhXwg3vcBlmVl2PFJ/exec";
-
 export default function Dashboard() {
   const location = useLocation();
   const [songs, setSongs] = useState([]);

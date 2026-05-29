@@ -25,8 +25,6 @@ import { db, auth } from '../firebase';
 import { transposeText, isChord, isChordLine } from '../utils/transposer';
 import axios from 'axios';
 
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwgUo86seO5J7zy2YHl_-LtX80YOEC9DDyIP5GWVawA1eindYPvhXwg3vcBlmVl2PFJ/exec";
-
 export default function SongViewer() {
   const { id } = useParams();
   const navigate = useNavigate();
