@@ -8,6 +8,15 @@ An elegant, secure, and serverless Web Application designed for musicians and bu
 
 ---
 
+![Main Dashboard View](https://raw.githubusercontent.com/Valdens/chord-organizer/main/images/dashboard_main_view.png?v=4) ![Individual Song View](https://raw.githubusercontent.com/Valdens/chord-organizer/main/images/song_chords_view.png?v=4) ![Library Overview & Stats](https://raw.githubusercontent.com/Valdens/chord-organizer/main/images/library_stats_view.png?v=4)
+
+### 📸 Deployed Application Preview
+* **📱 Main Dashboard & Search**: *Your stage-ready homepage. Rapid search filters your library in real-time (e.g. instantly searching by "Rock" or other genres), complete with sorting parameters, custom song badges (Recorded / Unrecorded), and favorite/star indicators for your setlists.*
+* **🎸 Immersive Chord Sheet Viewer**: *Your performance companion. Clean, green-highlighted chord blocks are aligned perfectly above lyrics. Features real-time sliders for chord size and layout spacing adjustments, pitch-shifting key transposer controls, full-screen stage mode, and a smart-wrap toggle.*
+* **📊 Library Overview & Stats**: *Keep track of your catalog distributions. Real-time stats display your total song counts, AI cleaned progress, and interactive bar charts breaking down your song counts across every music genre (Rock, Pop, Soundtracks, Folk, Indie, Jazz).*
+
+---
+
 ## 🎯 The Philosophy: Own Your Music
 
 Most chord library applications on the market today lock your song library, annotations, and busking sets behind expensive, recurring monthly subscriptions. You don't own your data, your formatting can break, and you have limited control over the database.
