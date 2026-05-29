@@ -42,3 +42,5 @@ backups/
 testResults.json
 *.log
 
+# Scratch Directory
+scratch/
