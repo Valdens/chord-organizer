@@ -9,7 +9,7 @@ An elegant, secure, and serverless Web Application designed for musicians and bu
 Most chord library applications on the market today lock your song library, annotations, and busking sets behind expensive, recurring monthly subscriptions. You don't own your data, your formatting can break, and you have limited control over the database.
 
 **Valdens Chord Organizer was built for the self-hoster, developer-musician, and stage performer.** It is designed to act as a **complete, ultra-premium, and entirely free private platform** under your absolute ownership:
-* **Zero Subscription Fees**: Runs on Google's generous serverless free tiers (Firebase Hosting, Cloud Run, and Firestore), cost-mitigated by strict token authorization.
+* **Zero Subscription Fees**: Runs on Google's serverless free tiers (Firebase Hosting, Cloud Run, and Firestore) in your own mersinal account, cost-mitigated by strict token authorization.
 * **Absolute Data Ownership**: Every song, chord sheet, and playlist resides inside your private, secure Google Firebase database.
 * **Decoupled Open-Source Core**: A modular scraping and formatting engine that can be cleanly separated and integrated with any database system (SQL, MongoDB, SQLite) by other developers.
 * **Premium UX Gating**: Fully optimized for real-time mobile busking and low-light stage use with absolute visual and operational excellence.
