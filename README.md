@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/chord_organizer_brand_logo.png" width="700" alt="Chord Organizer Logo" />
+  <img src="images/chord_organizer_brand_logo.png" width="500" alt="Chord Organizer Logo" />
 </p>
 
 ---
