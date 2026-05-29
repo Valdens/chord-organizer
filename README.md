@@ -64,15 +64,15 @@ flowchart LR
     end
 
     %% Data Streams & Connections
-    FE -->|1. Check Auth Status| FS
-    GA -->|2. Blocks Session| FE
-    FE -->|3. Scrape Request (JWT)| EX
-    EX -->|4. Validate Approved User| FS
-    EX -->|5. Execute Scraper| CORE
-    CORE -->|6. Residential IP Bypass| SD
-    SD -->|7. Fetch HTML| UG
-    CORE -->|8. Structure Chords & Lyrics| GM
-    EX -->|9. Save Structured Song| FS
+    FE -->|"1. Check Auth Status"| FS
+    GA -->|"2. Blocks Session"| FE
+    FE -->|"3. Scrape Request (JWT)"| EX
+    EX -->|"4. Validate Approved User"| FS
+    EX -->|"5. Execute Scraper"| CORE
+    CORE -->|"6. Residential IP Bypass"| SD
+    SD -->|"7. Fetch HTML"| UG
+    CORE -->|"8. Structure Chords & Lyrics"| GM
+    EX -->|"9. Save Structured Song"| FS
 
     %% Subgraph Styling
     style client_tier fill:#0f172a,stroke:#3b82f6,stroke-width:2px,color:#3b82f6
