@@ -4,6 +4,18 @@ An elegant, secure, and serverless Web Application designed for musicians and bu
 
 ---
 
+## 🎯 The Philosophy: Own Your Music
+
+Most chord library applications on the market today lock your song library, annotations, and busking sets behind expensive, recurring monthly subscriptions. You don't own your data, your formatting can break, and you have limited control over the database.
+
+**Valdens Chord Organizer was built for the self-hoster, developer-musician, and stage performer.** It is designed to act as a **complete, ultra-premium, and entirely free private platform** under your absolute ownership:
+* **Zero Subscription Fees**: Runs on Google's generous serverless free tiers (Firebase Hosting, Cloud Run, and Firestore), cost-mitigated by strict token authorization.
+* **Absolute Data Ownership**: Every song, chord sheet, and playlist resides inside your private, secure Google Firebase database.
+* **Decoupled Open-Source Core**: A modular scraping and formatting engine that can be cleanly separated and integrated with any database system (SQL, MongoDB, SQLite) by other developers.
+* **Premium UX Gating**: Fully optimized for real-time mobile busking and low-light stage use with absolute visual and operational excellence.
+
+---
+
 ## 🚀 Key Features
 
 * **🔑 Google SSO & Admin Approval Gatekeeping**: Secure user registration. New logins are placed in a real-time `Pending` state and must be approved by the administrator via single-click dashboard notifications or the **Control Room** before database access is granted.
@@ -20,17 +32,17 @@ An elegant, secure, and serverless Web Application designed for musicians and bu
 
 ```mermaid
 graph TD
-    subgraph Client Tier
+    subgraph client_tier ["Client Tier"]
         FE[React Frontend <br> Vite / Firebase Hosting]
         GA[Access Approval Gate <br> PendingApproval.jsx]
     end
 
-    subgraph Service Tier (Cloud Run)
+    subgraph service_tier ["Service Tier (Cloud Run)"]
         EX[Express Controller <br> index.js]
         CORE[Modular Scraper Engine <br> scraper-core.js]
     end
 
-    subgraph Database Tier
+    subgraph database_tier ["Database Tier"]
         FS[Firestore Database <br> Security Rules Gated]
     end
 
