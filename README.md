@@ -1,6 +1,14 @@
-# 🎵 Valdens Chord Organizer
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Valdens/chord-organizer/main/images/chord_organizer_brand_logo.png?v=4" width="700" alt="Chord Organizer Logo" />
+</p>
 
-An elegant, secure, and serverless Web Application designed for musicians and buskers to organize, transpose, and search chords. It features premium dark-themed interfaces, real-time Google SSO admin approval gates, and a decoupled high-fidelity AI chord-engraving engine.
+---
+
+<p align="center">
+  <strong>Own your music. Own your stage. Zero monthly fees.</strong>
+</p>
+
+**Valdens Chord Organizer** is an ultra-premium, self-hosted web vault designed for gigging musicians, buskers, and stage performers to search, organize, and transpose chords with absolute data ownership. Built to directly replace expensive monthly subscriptions that lock your catalog behind paywalls, Chord Organizer deploys entirely within Google's free serverless tiers ($0/month hosting forever). With a dark glassmorphic UI optimized for low-light stage use, real-time transposer sliders, and automated AI chord-engraving, you get a seamless performance companion under your absolute control. Zero ads, zero monthly fees, and complete custody over your stage library.
 
 > [!TIP]
 > **Are you a musician or self-hoster who isn't a "tech bro"?**
